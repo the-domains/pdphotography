@@ -1,13 +1,26 @@
-layout_spectrum: 1
-color:
-  saturation: 0.8422939
-  brandStrength: 0.9139785
-  lightness: 0.8154122
-  brandColors:
-    - '#030303'
-    - '#FDFDFD'
-    - '#BDBDBD'
-    - '#888888'
-  rhythmicContrast: 0.6479179
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 typography_spectrum: 0.1003584
+color:
+  saturation: 0.7401434
+  brandStrength: 1
+  lightness: 0.7293907
+  brandColors:
+    - '#EBECEF'
+    - '#5C541F'
+    - '#929A99'
+    - '#6688D7'
+    - '#801305'
+  rhythmicContrast: 0.7562724
+layout_spectrum: 1
 name: Pdphotography
