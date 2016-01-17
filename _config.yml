@@ -4,22 +4,23 @@ collections:
       number: 15
       paginate: true
       navigable: true
+    permalink:
+      path: '/:title/'
     feed:
       path: /rss.xml
       format: rss
       number: 10
-    permalink:
-      path: '/:title/'
+typography_spectrum: 0.1003584
 color:
   saturation: 0.7401434
-  lightness: 0.7293907
   brandStrength: 1
+  lightness: 0.7293907
   brandColors:
-    - '#030303'
-    - '#FDFDFD'
-    - '#BDBDBD'
-    - '#888888'
+    - '#F2E0D8'
+    - '#423030'
+    - '#6576A3'
+    - '#A37F65'
+    - '#AC434C'
   rhythmicContrast: 0.7562724
-typography_spectrum: 0.1003584
 layout_spectrum: 1
 name: Pdphotography
